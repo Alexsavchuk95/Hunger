@@ -1,0 +1,122 @@
+.form__sec{
+    margin-bottom: 14.91px;
+}
+
+.form__wrapper {
+    max-width: 1055px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__cnt,form{
+    width: 526.5px;
+}
+
+.form__cnt {
+    padding-top: 57.78px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form__title {
+    font-family: 'Banny Round';
+    font-size: 33.5468px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30.48px;
+}
+
+.form__title::after{
+    content: '';
+    position: absolute;
+    width: 56.76px;
+    height: 4.66px;
+    background: #E8C300;
+    border-radius: 4.65928px;
+    bottom: -4.66px;
+    left: 47%;
+}
+
+input{
+    width: 258.12px;
+    height: 55.91px;
+    background: #E5E5E5;
+    color: rgba(51, 51, 51, 0.5);
+    border-radius: 4.65928px;
+    border: none;
+    margin-bottom: 9.32px;
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.046px;
+    line-height: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input::placeholder{
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.inp__arr{
+    background-image: url('../../assets/img/arrform.png');
+    background-repeat: no-repeat;
+    background-position: 92% 50%;
+}
+
+.form__btn{
+    width: 525.17px;
+    height: 55.91px;
+    background: #E8C300;
+    border-radius: 4.65928px;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11.1823px;
+    line-height: 19px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+/* ============IMG=========== */
+
+.form__imgCnt {
+    position: relative;
+}
+
+.form__imgCnt::after {
+    position: absolute;
+    content: '';
+    width: 210.6px;
+    height: 210.6px;
+    border: 18.6371px solid #E8C300;
+    border-radius: 4.65928px;
+    top: 25%;
+    left: 67%;
+}
+
+.text__cnt {
+    width: 100%;
+    height: 93.19px;
+    text-align: center;
+}
+
+.text__bold {
+    
+}
+
+.form__text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.1823px;
+    line-height: 11px;
+    color: rgba(51, 51, 51, 0.5);
+}

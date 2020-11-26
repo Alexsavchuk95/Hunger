@@ -1,0 +1,151 @@
+.ivents {
+    width: 100%;
+    background-image: url('../../assets/img/specBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* ====ARROW=======*/
+.ivents_arr{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 0.93px;
+    background: rgba(255, 255, 255, 0.2);
+    top: 0;
+    left: 19%;
+    z-index: 2;
+}
+
+.arrTwo{
+    left: 50%;
+}
+
+.arrThree{
+    left: 77.2%;
+}
+
+/* ================= */
+.ivents__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 11.1823px;
+    line-height: 13px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.ivents__cnt {
+    max-width: 1074px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weed__cnt{
+    position: relative;
+    z-index: 3;
+}
+
+.weed__cnt::before {
+    position: absolute;
+    content: '';
+    width: 232.96px;
+    height: 232.96px;
+    border: 18.6371px solid #E8C300;
+    border-radius: 4.65928px;
+    top: 25%;
+    right: 65%;
+}
+
+.weed__title {
+    position: absolute;
+    content: '';
+    width: 74.55px;
+    height: 444.63px;
+    background: #000;
+    border-radius: 0px 4.65928px 4.65928px 0px;
+    top: 45.2px;
+    right: 47.5px;
+}
+
+.weed__text {
+    position: absolute;
+    color: #fff;
+    font-size: 22.3645px;
+    line-height: 11px;
+    text-indent: 18.6371px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    font-family: 'Banny Round';
+    font-weight: 300;
+    top: 67.2px;
+    right: -28.5px;
+}
+
+
+
+
+.corp__cnt {
+    position: relative;
+    z-index: 3;
+}
+
+.corp__cnt::after {
+    position: absolute;
+    content: '';
+    width: 232.96px;
+    height: 232.96px;
+    border: 18.6371px solid #E8C300;
+    border-radius: 4.65928px;
+    top: 25%;
+    left: 65%;
+}
+
+
+.corp__title {
+    position: absolute;
+    content: '';
+    width: 74.55px;
+    height: 444.63px;
+    background: #000;
+    border-radius: 0px 4.65928px 4.65928px 0px;
+    top: 45.2px;
+    left: 47.4px;
+}
+
+
+.corp__text {
+    position: absolute;
+    color: #fff;
+    font-size: 22.3645px;
+    line-height: 11px;
+    text-indent: 18.6371px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    font-family: 'Banny Round';
+    font-weight: 300;
+    bottom: 122.2px;
+    right: -87.5px;
+    width: 250px;
+}
+
+.inf__cnt{
+    padding-bottom: 41px;
+}
+
+.ivents__in {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.1823px;
+    line-height: 11px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.inBold {
+    color: rgba(255, 255, 255, 0.7);
+}

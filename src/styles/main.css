@@ -1,0 +1,20 @@
+@import './reset.css';
+@import './fonts/fonts.css';
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}

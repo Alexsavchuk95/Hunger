@@ -1,0 +1,137 @@
+.slider__cnt {
+    background-image: url('../../assets/img/specBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 67.09px;
+    position: relative;
+}
+
+.arr{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 0.93px;
+    background: rgba(255, 255, 255, 0.2);
+    top: 0;
+    left: 19%;
+    z-index: 2;
+}
+
+.arrTwo{
+    left: 50%;
+}
+
+.arrThree{
+    left: 77.2%;
+}
+
+.title__cnt {
+    width: 100%;
+    height: 93.19px;
+    text-align: center;
+}
+
+.slider__title {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 11.1823px;
+    line-height: 13px;
+    letter-spacing: 0.5em;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.slider__wrapper {
+    max-width: 1146px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ========IMG========= */
+
+.img__cnt {
+    position: relative;
+    z-index: 4;
+}
+
+.img__cnt::before{
+    position: absolute;
+    content: '';
+    width: 232.96px;
+    height: 244.82px;
+    border: 18.6371px solid #E8C300;
+    top: 25%;
+    left: -15%;
+}
+
+/* ========================== */
+
+.slider__info {
+    padding-top: 109.3px;
+    text-align: center;
+    max-width: 559.11px;
+}
+
+.info__title{
+    font-size: 33.5468px;
+    line-height: 45px;
+    color: #fff;
+    font-family: 'Banny Round';
+    text-transform: uppercase;
+    font-weight: 500;
+    height: 52.18px;
+    margin-bottom: 4.66px;
+    position: relative;
+}
+
+.info__title::after{
+    position: absolute;
+    content: '';
+    width: 60.32px;
+    height: 4.66px;
+    background: #E8C300;
+    border-radius: 46.5928px;  
+    bottom: 0; 
+    left: 45%;
+}
+
+.info__text,.info__textS {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 16.7734px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.info__text{
+    margin-bottom: 11.73px;
+}
+
+.info__textS {
+    font-size: 13px;
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+.slider__btns {
+    width: 65.23px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 41.93px;
+}
+
+.btn{
+    width: 9.32px;
+    height: 9.32px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.btn:hover{
+    background: #fff;
+    cursor: pointer;
+}
