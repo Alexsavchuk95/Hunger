@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Hunger/static/css/main.a269624c.chunk.css",
+    "main.js": "/Hunger/static/js/main.7a62b8e5.chunk.js",
+    "main.js.map": "/Hunger/static/js/main.7a62b8e5.chunk.js.map",
+    "runtime-main.js": "/Hunger/static/js/runtime-main.0ff0429b.js",
+    "runtime-main.js.map": "/Hunger/static/js/runtime-main.0ff0429b.js.map",
+    "static/js/2.cd2ff37d.chunk.js": "/Hunger/static/js/2.cd2ff37d.chunk.js",
+    "static/js/2.cd2ff37d.chunk.js.map": "/Hunger/static/js/2.cd2ff37d.chunk.js.map",
+    "index.html": "/Hunger/index.html",
+    "precache-manifest.35dc93ae8da105b77d8c5e385a800e0f.js": "/Hunger/precache-manifest.35dc93ae8da105b77d8c5e385a800e0f.js",
+    "service-worker.js": "/Hunger/service-worker.js",
+    "static/css/main.a269624c.chunk.css.map": "/Hunger/static/css/main.a269624c.chunk.css.map",
+    "static/media/1.png": "/Hunger/static/media/1.69419cd1.png",
+    "static/media/2.png": "/Hunger/static/media/2.746ffb9f.png",
+    "static/media/3.png": "/Hunger/static/media/3.d42bb92d.png",
+    "static/media/main.css": "/Hunger/static/media/Banny-Round.4e4e2c56.woff",
+    "static/media/about.png": "/Hunger/static/media/about.7047777a.png",
+    "static/media/header.module.css": "/Hunger/static/media/headerBg.6ca8cefa.png",
+    "static/media/ivents.module.css": "/Hunger/static/media/specBg.60c9839c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ff0429b.js",
+    "static/js/2.cd2ff37d.chunk.js",
+    "static/css/main.a269624c.chunk.css",
+    "static/js/main.7a62b8e5.chunk.js"
+  ]
+}
