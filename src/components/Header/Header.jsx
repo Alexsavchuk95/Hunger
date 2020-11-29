@@ -1,4 +1,5 @@
 import React from 'react';
+import Timer from './Timer/Timer';
 import styles from './header.module.css';
 import logo from '../../assets/img/logo.png';
 import arrow from '../../assets/img/arrow.png';
@@ -6,22 +7,23 @@ import facebook from '../../assets/icons/facebook.png';
 import twitter from '../../assets/icons/twitter.png';
 import inst from '../../assets/icons/inst.png';
 
-const Header = () => (
-    <>
+function Header() {
+    const startDate = new Date().getTime() + 50400000;
+    return (
         <header>
             <nav>
                 <ul className={styles.header__list}>
                     <li className={styles.list__item}>
-                        <a className={styles.list__link} href="">Home</a>
+                        <a className={styles.list__link} href="/">Home</a>
                     </li>
                     <li className={styles.list__item}>
-                        <a className={styles.list__link} href="">About</a>
+                        <a className={styles.list__link} href="/">About</a>
                     </li>
                     <li className={styles.list__item}>
-                        <a className={styles.list__link} href="">Team</a>
+                        <a className={styles.list__link} href="/">Team</a>
                     </li>
                     <li className={styles.list__item}>
-                        <a className={styles.list__link} href="">Booking</a>
+                        <a className={styles.list__link} href="#book">Booking</a>
                     </li>
                 </ul>
                 <div className={styles.header__logo}>
@@ -31,23 +33,24 @@ const Header = () => (
                 </div>
                 <ul className={styles.header__list}>
                     <li className={styles.list__item}>
-                        <a className={styles.list__link} href="">Menu</a>
+                        <a className={styles.list__link} href="#menu">Menu</a>
                     </li>
                     <li className={styles.list__item}>
-                        <a className={styles.list__link} href="">Galerie</a>
+                        <a className={styles.list__link} href="#spec">Galerie</a>
                     </li>
                     <li className={styles.list__item}>
-                        <a className={styles.list__link} href="">Events</a>
+                        <a className={styles.list__link} href="#events">Events</a>
                     </li>
                     <li className={styles.list__item}>
-                        <a className={styles.list__link} href="">Contact</a>
+                        <a className={styles.list__link} href="/">Contact</a>
                     </li>
                 </ul>
             </nav>
             {/*   =====TIMER===== */}
-            <div className={styles.header__time}>
+{/*             <div className={styles.header__time}>
                 <p className={styles.time__text}>Left: 13:59</p>
-            </div>
+            </div> */}
+            <Timer startDate={startDate} />
             {/*   =====TIMER===== */}
             <div className={styles.title__cnt}>
                 <div className={styles.time__sp}>
@@ -57,8 +60,8 @@ const Header = () => (
                     <p className={styles.title_sp}>Restaurant</p>
                     <p className={styles.header__title}>Hungry People</p>
                     <div className={styles.title__links}>
-                        <a className={styles.title__link} href="">Book Table</a>
-                        <a className={styles.title__link} href="">Explore</a>
+                        <a className={styles.title__link} href="#book">Book Table</a>
+                        <a className={styles.title__link} href="/">Explore</a>
                     </div>
                     <div className={styles.arrow_cnt}>
                         <div className={styles.header__arrow}>
@@ -69,17 +72,17 @@ const Header = () => (
                 <div className={styles.header__social}>
                     <ul className={styles.social__list}>
                         <li className={styles.social__item}>
-                            <a href="">
+                            <a href="/">
                                 <img className={styles.social__facebook} src={facebook} alt="" />
                             </a>
                         </li>
                         <li className={styles.social__item}>
-                            <a href="">
+                            <a href="/">
                                 <img className={styles.social__twiiter} src={twitter} alt="" />
                             </a>
                         </li>
                         <li className={styles.social__item}>
-                            <a href="">
+                            <a href="/">
                                 <img className={styles.social__inst} src={inst} alt="" />
                             </a>
                         </li>
@@ -87,8 +90,8 @@ const Header = () => (
                 </div>
             </div>
         </header>
-    </>
 );
+}
 
 
 export default Header;

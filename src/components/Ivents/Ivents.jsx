@@ -4,7 +4,7 @@ import img1 from '../../assets/img/2.png';
 import img2 from '../../assets/img/3.png';
 
 const Ivents = () => (
-    <section className={styles.ivents}>
+    <section className={styles.ivents} id="events">
         <div className={styles.ivents_arr}></div>
         <div className={`${styles.ivents_arr} ${styles.arrTwo}`}></div>
         <div className={`${styles.ivents_arr} ${styles.arrThree}`}></div>

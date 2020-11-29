@@ -94,12 +94,12 @@ input::placeholder{
 .form__imgCnt::after {
     position: absolute;
     content: '';
-    width: 210.6px;
-    height: 210.6px;
+    width: 177.6px;
+    height: 177.6px;
     border: 18.6371px solid #E8C300;
     border-radius: 4.65928px;
-    top: 25%;
-    left: 67%;
+    top: 30%;
+    left: 72%;
 }
 
 .text__cnt {

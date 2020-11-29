@@ -4,6 +4,7 @@
     background-size: cover;
     margin-bottom: 67.09px;
     position: relative;
+    height: 629px;
 }
 
 .arr{
@@ -27,7 +28,6 @@
 
 .title__cnt {
     width: 100%;
-    height: 93.19px;
     text-align: center;
 }
 
@@ -59,11 +59,12 @@
 .img__cnt::before{
     position: absolute;
     content: '';
-    width: 232.96px;
-    height: 244.82px;
+    width: 194.96px;
+    height: 209.82px;
     border: 18.6371px solid #E8C300;
     top: 25%;
-    left: -15%;
+    left: -13%;
+    border-radius: 4.65928px;
 }
 
 /* ========================== */
@@ -81,8 +82,8 @@
     font-family: 'Banny Round';
     text-transform: uppercase;
     font-weight: 500;
-    height: 52.18px;
     margin-bottom: 4.66px;
+    padding-bottom: 7.18px;
     position: relative;
 }
 
@@ -114,24 +115,4 @@
     font-size: 13px;
     font-weight: 300;
     opacity: 0.6;
-}
-
-.slider__btns {
-    width: 65.23px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 41.93px;
-}
-
-.btn{
-    width: 9.32px;
-    height: 9.32px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.5);
-}
-
-.btn:hover{
-    background: #fff;
-    cursor: pointer;
 }

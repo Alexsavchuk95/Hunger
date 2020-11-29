@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './menu.module.css';
 
 const Menu = ({ items }) => (
-    <section className={styles.menu}>
+    <section className={styles.menu} id="menu">
         <div className={styles.menu__cnt}>
             <h3 className={styles.menu__title}>Delicious Menu</h3>
             <p className={styles.title__text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>

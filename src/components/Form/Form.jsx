@@ -3,7 +3,7 @@ import styles from './form.module.css';
 import about from '../../assets/img/about.png';
 
 const Form = () => (
-    <section className={styles.form__sec}>
+    <section className={styles.form__sec} id="book">
         <div className={styles.form__wrapper}>
             <div className={styles.form__cnt}>
                 <h3 className={styles.form__title}>Book a Table</h3>
