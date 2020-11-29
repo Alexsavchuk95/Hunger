@@ -16,3 +16,10 @@
 .time__text {
     margin-right: 10px;
 }
+
+
+@media (max-width: 970px) {
+    .header__time{
+        top: 229px;
+    }
+}

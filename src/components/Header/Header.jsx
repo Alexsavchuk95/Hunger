@@ -27,7 +27,7 @@ function Header() {
                     </li>
                 </ul>
                 <div className={styles.header__logo}>
-                    <div className={styles.test}>
+                    <div className={styles.logo}>
                         <img src={logo} alt="" />
                     </div>
                 </div>
@@ -47,9 +47,6 @@ function Header() {
                 </ul>
             </nav>
             {/*   =====TIMER===== */}
-{/*             <div className={styles.header__time}>
-                <p className={styles.time__text}>Left: 13:59</p>
-            </div> */}
             <Timer startDate={startDate} />
             {/*   =====TIMER===== */}
             <div className={styles.title__cnt}>

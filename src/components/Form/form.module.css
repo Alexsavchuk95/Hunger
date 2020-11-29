@@ -108,9 +108,6 @@ input::placeholder{
     text-align: center;
 }
 
-.text__bold {
-    
-}
 
 .form__text{
     font-family: 'Open Sans', sans-serif;
@@ -119,4 +116,13 @@ input::placeholder{
     font-size: 11.1823px;
     line-height: 11px;
     color: rgba(51, 51, 51, 0.5);
+}
+
+
+@media (max-width: 1250px) {
+    .form__wrapper {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 526.5px;
+    }
 }

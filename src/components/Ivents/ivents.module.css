@@ -149,3 +149,12 @@
 .inBold {
     color: rgba(255, 255, 255, 0.7);
 }
+
+
+@media (max-width: 1250px) {
+    .ivents__cnt {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 537px;
+    }
+}

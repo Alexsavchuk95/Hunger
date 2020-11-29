@@ -116,3 +116,33 @@
     font-weight: 300;
     opacity: 0.6;
 }
+
+
+@media (max-width: 1250px) {
+    .slider__wrapper {
+        flex-wrap: wrap-reverse;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .slider__info{
+        padding-top: 20px;
+    }
+
+    .img__cnt {
+        width: 256px;
+        margin: 0 auto;
+    }
+
+    .img__cnt::before{
+        position: absolute;
+        content: '';
+        width: 81.96px;
+        height: 81.82px;
+        border: 4.6371px solid #E8C300;
+        top: 25%;
+        left: -13%;
+        border-radius: 4.65928px;
+    }
+}
+
