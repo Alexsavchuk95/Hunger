@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78a01703c3eef7cbeed64783e5e1d6b5",
+    "revision": "97a26dc48b342c7aac76dee309e55024",
     "url": "/Hunger/index.html"
   },
   {
-    "revision": "1ba27325f8adf63ad7a2",
-    "url": "/Hunger/static/css/2.63b7f05a.chunk.css"
+    "revision": "6cf165ed3e1c435334e0",
+    "url": "/Hunger/static/css/2.f3e43704.chunk.css"
   },
   {
-    "revision": "80c0c738e0cb716f7b80",
-    "url": "/Hunger/static/css/main.60ac2fae.chunk.css"
+    "revision": "8587f31e626b3ce7ed6f",
+    "url": "/Hunger/static/css/main.3b66845c.chunk.css"
   },
   {
-    "revision": "1ba27325f8adf63ad7a2",
+    "revision": "6cf165ed3e1c435334e0",
     "url": "/Hunger/static/js/2.c4ecc426.chunk.js"
   },
   {
-    "revision": "80c0c738e0cb716f7b80",
-    "url": "/Hunger/static/js/main.d437c8db.chunk.js"
+    "revision": "8587f31e626b3ce7ed6f",
+    "url": "/Hunger/static/js/main.645f5dea.chunk.js"
   },
   {
     "revision": "7a676217d7f591f31959",
